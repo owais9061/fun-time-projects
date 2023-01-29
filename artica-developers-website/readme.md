@@ -1,0 +1,1 @@
+<h1>Following project has been created for fun use, and can be used even as professional use, if required</h1>
