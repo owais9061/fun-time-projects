@@ -24,9 +24,9 @@ if (empty($_POST["message"])) {
 }
 
 /* Contact Form Setup Begin */
-    $send_name      = "Rometheme";      // Replace your name
-    $send_title     = "Rometheme Send Mail";        // Replace email sent title
-    $send_address   = "rometheme@gmail.com "; // Replace your email address
+    $send_name      = "Owais Gujjar";      // Replace your name
+    $send_title     = "GUJJAR Sent you a Mail";        // Replace email sent title
+    $send_address   = "owaischaudhry906@gmail.com "; // Replace your email address
     
     $smtp_address   = "rudhisasmitomail@gmail.com";     // Replace your email address
     $smtp_password  = "rudhisasmitomail1234";               // Replace your email password
