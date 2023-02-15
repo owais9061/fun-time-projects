@@ -10,14 +10,14 @@ body {
     font-family: Roboto, 'sans-serif';
     font-size: 16px;
     min-height: 100vh;
-    background: linear-gradient(41deg, #90ecce,#26ff85);
+    background: linear-gradient(41deg, #afafaf,#333333);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .container {
     background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 5px;
+    border-radius: 20px;
     height: 25rem;
     width: 20rem;
     padding: 1rem;
@@ -25,7 +25,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 1px 2px 18px black;
 }
+
 .title {
     font-size: 1.4rem;
 }
@@ -34,6 +36,11 @@ body {
     border-radius: 5px;
     margin-top: 0.5rem;
     height: 2rem;
+}
+
+#binary:focus{
+    background-color: #afafaf;
+    color:black;
 }
 .row {
     margin: 1rem;
